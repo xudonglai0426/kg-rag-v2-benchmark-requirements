@@ -1,6 +1,6 @@
 # KG-RAG-V2 Benchmark 
 
-## Platform
+## Platforms
 Android (10 apps)
 
 Harmony (5 apps)
