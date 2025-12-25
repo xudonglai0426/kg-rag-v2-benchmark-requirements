@@ -4,7 +4,8 @@ checkpoint_list: 完成意图所需的关键页面
 
 
 
-Examples:
+## Examples:
+‘’‘python
 {
     "test_1": {
         "intention": "搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息",
@@ -25,3 +26,4 @@ Examples:
     },
     ...
 }
+’‘’
