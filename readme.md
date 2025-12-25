@@ -1,11 +1,25 @@
+# KG-RAG-V2 Benchmark 
+
+## Platform
+Android (10 apps)
+
+Harmony (5 apps)
+
+IOS (5 apps)
+
+10-15 intentions for each app
+
+## Variables
+
 intention: 需要标注的意图
+
 action_desp_list: 每一步操作的单步描述（点击xxx，输入xxx，向上/下/左/右滑动）
+
 checkpoint_list: 完成意图所需的关键页面
 
 
-
 ## Examples:
-‘’‘python
+```json
 {
     "test_1": {
         "intention": "搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息",
@@ -23,7 +37,6 @@ checkpoint_list: 完成意图所需的关键页面
         "image_path_list": ["screenshot/step_008.png", "screenshot/step_009.png", "screenshot/step_010.png",
         "screenshot/step_011.png", "screenshot/step_012.png", "screenshot/step_013.png", "screenshot/step_014.png",
         "screenshot/step_015.png", "screenshot/step_016.png", "screenshot/step_017.png"]
-    },
-    ...
+    }
 }
-’‘’
+```
