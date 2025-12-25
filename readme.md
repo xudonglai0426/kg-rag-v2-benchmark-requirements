@@ -14,7 +14,8 @@
 - Harmony (5 apps)
 - IOS (5 apps)
 
-10-15 intentions for each app
+每个app标注10-15条意图
+每个意图至少2个标注人员标注
 
 ## Variables
 - intention: 需要标注的意图
