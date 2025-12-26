@@ -10,9 +10,9 @@
 - 3.记录关键节点列表（按照主观感觉写）
 
 ## Platforms
-- Android (10 apps)
-- Harmony (5 apps)
-- IOS (5 apps)
+- Android (30个垂类，每个垂类一个app）
+- Harmony (15个垂类，每个垂类一个app）
+- IOS (15个垂类，每个垂类一个app)
 
 每个app标注10-15条意图
 
