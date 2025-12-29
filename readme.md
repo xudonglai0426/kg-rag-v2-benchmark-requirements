@@ -26,6 +26,16 @@
 - checkpoint_list: 完成意图所需的关键页面
 - image_path_list: 每一张截图的相对路径
 
+## Resources
+
+### Apk
+https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?dmr=1&ec=wgc-drive-globalnav-goto
+
+### Android studio
+
+### XnViewMP
+
+
 ## Examples:
 ```json
 {
