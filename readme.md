@@ -10,6 +10,18 @@
 - 3.记录每一步具体操作的coordinate（[X,Y] 只针对点击操作），其他动作则置 []
 - 4.记录关键节点列表（按照主观感觉写）
 
+格式：
+```text
+app_name/
+├── intent_1/         # 对应某个意图，文件夹名字与traj.json中的key保持一致
+├───── step_001.png
+├───── step_002.png
+├───── ...
+├── intent_2/
+├── ...
+├── traj.json/ 
+```
+
 #### 标注注意事项
 - 先登录app后再进行标注
 - 过滤掉弹窗等操作（如：进入首页后，系统弹出vip购买等弹窗，直接关闭弹窗即可，关闭弹窗这步的截图和动作都不需要记录）
@@ -84,25 +96,25 @@ Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
 ## Examples:
 ```json
 {
-    "test_1": {
+    "intent_1": {
         "intention": "搜索并播放Taylor Swift的Love Story，并查看歌曲的详细信息",
         "action_desp_list": ["点击搜索框", "输入Taylor Swift Love Story", "点击搜索按钮", "点击搜索结果中第一个歌曲",
       "向左滑动", "向左滑动"],
         "checkpoint_list": ["搜索结果页面", "歌曲播放页面", "歌曲详情信息页"],
         "coordinate_list": [[437, 312], [], [1005, 201], [509, 1027], [], []],
-        "image_path_list": ["screenshot/step_001.png", "screenshot/step_002.png", "screenshot/step_003.png",
-        "screenshot/step_004.png", "screenshot/step_005.png", "screenshot/step_006.png", "screenshot/step_007.png"]
+        "image_path_list": ["intent_1/step_001.png", "intent_1/step_002.png", "intent_1/step_003.png",
+        "intent_1/step_004.png", "intent_1/step_005.png", "intent_1/step_006.png", "intent_1/step_007.png"]
     },
-    "test_2": {
+    "intent_2": {
         "intention": "搜索并播放Justin Bieber的Baby，并进行分享操作",
         "action_desp_list": ["点击搜索框", "输入Justin Bieber Baby", "点击搜索按钮", "点击搜索结果中第一个歌曲", 
         "点击右上角的分享按钮", "点击微信好友按钮", "点击列表中第一个联系人", "点击发送按钮", "点击返回酷狗音乐按钮"],
         "checkpoint_list": ["搜索结果页面", "歌曲播放页面", "分享页面", "分享成功页面"],
         "coordinate_list": [[400, 261], [], [1002, 148], [522, 1080], [1010, 156], [100, 1324], [522, 1019], 
     [718, 1995], [326, 1394]],
-        "image_path_list": ["screenshot/step_008.png", "screenshot/step_009.png", "screenshot/step_010.png",
-        "screenshot/step_011.png", "screenshot/step_012.png", "screenshot/step_013.png", "screenshot/step_014.png",
-        "screenshot/step_015.png", "screenshot/step_016.png", "screenshot/step_017.png"]
+        "image_path_list": ["intent_2/step_008.png", "intent_2/step_009.png", "intent_2/step_010.png",
+        "intent_2/step_011.png", "intent_2/step_012.png", "intent_2/step_013.png", "intent_2/step_014.png",
+        "intent_2/step_015.png", "intent_2/step_016.png", "intent_2/step_017.png"]
     }
 }
 ```
