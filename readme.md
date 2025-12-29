@@ -36,11 +36,17 @@
 包含所有需要的android的apk安装包
 https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
 
-在虚拟机上，可通过adb install /Users/name/Downloads/xxx.apk (具体apk路径) 直接安装
+在虚拟机上，在terminal可通过adb install /Users/name/Downloads/xxx.apk (具体apk路径) 直接安装
 
 ### Android studio
 
 需要安装Android studio以及adb，以使用安卓虚拟机
+
+安装成功的标志就是，在terminal，运行adb devices后，显示对应的虚拟机的id
+```python
+List of devices attached
+emulator-5554   device
+```
 
 ### XnViewMP
 
