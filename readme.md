@@ -29,7 +29,7 @@
 ## Resources
 
 ### Apk
-[https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?dmr=1&ec=wgc-drive-globalnav-goto](https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing)
+https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
 
 ### Android studio
 
