@@ -36,7 +36,7 @@
 包含所有需要的android的apk安装包
 https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
 
-在虚拟机/真机上，连接电脑，可通过adb install 直接安装
+在虚拟机/真机上，连接电脑，可通过adb install /Users/name/Downloads/xxx.apk (具体apk路径) 直接安装
 
 ### Android studio
 
