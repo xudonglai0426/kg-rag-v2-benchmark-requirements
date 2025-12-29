@@ -44,7 +44,7 @@ https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sha
 
 Android Studio: https://developer.android.com/studio?hl=zh-cn
 
-一直点击next，应该会自动安装adb，第一次安装耗时会久一些
+一直点击next，应该会自动安装adb，第一次安装耗时会久一些（安装中如果有问题，可以直接搜索/gpt，相关内容很多）
 
 安装成功后，Android Studio → More Actions → Virtual Device Manager
 <div align="center">
