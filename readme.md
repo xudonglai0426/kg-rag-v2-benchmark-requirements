@@ -40,7 +40,9 @@ https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sha
 
 ### XnViewMP
 
-Windows/Mac系统都可以下载安装XnViewMP，用XnViewMP打开图片，移动光标就可以在右下角找到对应X,Y坐标，作为grounding数据记录
+Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
+
+用XnViewMP打开图片，移动光标就可以在右下角找到对应X,Y坐标，作为grounding数据记录
 
 <div align="center">
 <p align="center">
