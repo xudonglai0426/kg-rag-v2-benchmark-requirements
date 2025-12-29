@@ -42,6 +42,14 @@ https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sha
 
 需要安装Android studio以及adb，以使用安卓虚拟机
 
+Android Studio: https://developer.android.com/studio?hl=zh-cn
+
+一直点击next，应该会自动安装adb，第一次安装耗时会久一些
+
+安装成功后，Android Studio → More Actions → Virtual Device Manager
+
+在里边添加新的模拟机，选择 Pixel 6机型
+
 安装成功的标志就是，在terminal，运行adb devices后，显示对应的虚拟机的id
 ```python
 List of devices attached
