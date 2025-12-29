@@ -40,7 +40,7 @@ https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sha
 
 ### Android studio
 
-需要安装Android studio以及adb，以实用安卓虚拟机
+需要安装Android studio以及adb，以使用安卓虚拟机
 
 ### XnViewMP
 
