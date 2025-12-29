@@ -25,8 +25,8 @@
 
 ## Variables
 - intention: 需要标注的意图
-- action_desp_list: 每一步操作的单步描述（点击xxx，输入xxx，向上/下/左/右滑动）
-- bounding_box_list: 每一步具体操作的bounding box（只针对点击操作），其他动作则置""
+- action_desp_list: 每一步操作的单步描述（点击xxx，输入xxx，向上/下/左/右滑动，勾选xxx复选框）
+- coordinate_list: 每一步具体操作的coordinate（[X,Y] 只针对点击操作），其他动作则置 []
 - checkpoint_list: 完成意图所需的关键页面
 - image_path_list: 每一张截图的相对路径
 
@@ -62,7 +62,7 @@ Android Studio: https://developer.android.com/studio?hl=zh-cn
 </div>
 
 
-启动虚拟机，所有一切都安装成功的标志就是，在terminal，运行adb devices后，显示对应的虚拟机的id（证明adb可以正常连接到手机并使用）
+启动虚拟机，所有一切都安装成功的标志就是，在terminal运行 adb devices 命令时，显示对应的虚拟机的id（证明adb可以正常连接到手机并使用）
 ```python
 List of devices attached
 emulator-5554   device
