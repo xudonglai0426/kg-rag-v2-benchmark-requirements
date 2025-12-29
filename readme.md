@@ -47,10 +47,22 @@ Android Studio: https://developer.android.com/studio?hl=zh-cn
 一直点击next，应该会自动安装adb，第一次安装耗时会久一些
 
 安装成功后，Android Studio → More Actions → Virtual Device Manager
+<div align="center">
+  <img src="android_studio_fig_1.png"/>
+</div>
 
 在里边添加新的模拟机，选择 Pixel 6机型
+<div align="center">
+  <img src="android_studio_fig_2.png"/>
+</div>
 
-安装成功的标志就是，在terminal，运行adb devices后，显示对应的虚拟机的id
+添加成功后，对应的device name会显示在界面上
+<div align="center">
+  <img src="android_studio_fig_3.png"/>
+</div>
+
+
+启动虚拟机，所有一切都安装成功的标志就是，在terminal，运行adb devices后，显示对应的虚拟机的id（证明adb可以正常连接到手机并使用）
 ```python
 List of devices attached
 emulator-5554   device
