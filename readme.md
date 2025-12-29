@@ -26,14 +26,27 @@
 - checkpoint_list: 完成意图所需的关键页面
 - image_path_list: 每一张截图的相对路径
 
-## Resources
+## Preparation
 
 ### Apk
+包含所有需要的android的apk安装包
 https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
+
+在虚拟机/真机上，连接电脑，可通过adb install 直接安装
 
 ### Android studio
 
+需要安装Android studio以及adb，以实用安卓虚拟机
+
 ### XnViewMP
+
+Windows/Mac系统都可以下载安装XnViewMP，用XnViewMP打开图片，移动光标就可以在右下角找到对应X,Y坐标，作为grounding数据记录
+
+<div align="center">
+<p align="center">
+  <img src="figure1.png"/>
+</p>
+</div>
 
 
 ## Examples:
