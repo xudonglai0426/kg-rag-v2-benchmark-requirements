@@ -89,7 +89,7 @@ Harmony涉及hdc的安装（作用与adb一致）
 
 下载地址：https://developer.huawei.com/consumer/cn/download/  安装Command Line Tools 6.0.1 Release
 
-之后配置环境变量 export PATH=$PATH:/Users/xudonglai/Desktop/command-line-tools/sdk/default/openharmony/toolchains
+之后配置环境变量 export PATH=$PATH:/Users/xudonglai/Desktop/command-line-tools/sdk/default/openharmony/toolchains（可参考：https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hdc ）
 
 安装成功的标志是，连接Harmony手机的情况下，在terminal运行 hdc list targets 显示对应手机的sn号
 ```python
