@@ -84,7 +84,7 @@ app_name/
 标注后不要对app进行更新，测评会用同样的app版本
 
 #### hdc
-Harmony设计hdc的安装（作用与adb一致）
+Harmony涉及hdc的安装（作用与adb一致）
 
 下载地址：https://developer.huawei.com/consumer/cn/download/
 
