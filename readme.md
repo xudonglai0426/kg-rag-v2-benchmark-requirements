@@ -112,7 +112,7 @@ List of devices attached
 emulator-5554   device
 ```
 
-### XnViewMP
+### XnViewMP（用于coordinate标注）
 
 Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
 
