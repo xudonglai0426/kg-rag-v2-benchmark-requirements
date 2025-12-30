@@ -55,6 +55,10 @@ app_name/
 #### 标注注意事项
 - 先登录app后再进行标注
 - 过滤掉弹窗等操作（如：进入首页后，系统弹出vip购买等弹窗，直接关闭弹窗即可，关闭弹窗这步的截图和动作都不需要记录）
+- windows/mac 可以通过adb命令行对当前页面进行截图，直接保存到电脑
+  ```python
+  adb exec-out screencap -p > /Users/xudonglai/Desktop/dataset/kg_graph/benchmark/kugoumusic/screenshot/step_084.png
+  ```
 
 ## Platforms
 - Android (38个app）
