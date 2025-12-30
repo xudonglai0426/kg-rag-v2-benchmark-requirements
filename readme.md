@@ -50,7 +50,6 @@ app_name/
 ```
 
 <div align="center">
-  <img src="traj.png"/>
 </div>
 
 #### 标注注意事项
