@@ -134,11 +134,11 @@ List of devices attached
 emulator-5554   device
 ```
 
-### XnViewMP（用于coordinate标注）
+### XnViewMP（用于bounding box标注）
 
 Windows/Mac系统都可以下载安装XnViewMP，用免费版即可
 
-用XnViewMP打开图片，移动光标就可以在右下角找到对应X,Y坐标，作为coordinate数据记录
+用XnViewMP打开图片，移动光标就可以在右下角找到对应X,Y坐标，作为bounding box数据记录
 
 <div align="center">
 <p align="center">
