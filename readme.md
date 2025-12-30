@@ -53,9 +53,9 @@ app_name/
 - 过滤掉弹窗等操作（如：进入首页后，系统弹出vip购买等弹窗，直接关闭弹窗即可，关闭弹窗这步的截图和动作都不需要记录）
 
 ## Platforms
-- Android (30个垂类，每个垂类一个app）
-- Harmony (15个垂类，每个垂类一个app）
-- IOS (15个垂类，每个垂类一个app)
+- Android (38个app）
+- Harmony (5-10个app）
+- IOS (3个app，音乐垂类）
 
 每个app标注15条意图
 
@@ -70,13 +70,19 @@ app_name/
 
 ## Preparation
 
-### Apk
+### Harmony/IOS
+用真机，在app store下载app即可
+
+标注后不要对app进行更新，测评会用同样的app版本
+
+### Android
+#### Apk
 包含所有需要的android的apk安装包
 https://drive.google.com/drive/folders/1p-mkBJfkHjhZYqziaU5YYDhSoGCqHnRJ?usp=sharing
 
 在虚拟机上，在terminal可通过adb install /Users/name/Downloads/xxx.apk (具体apk路径) 直接安装
 
-### Android studio
+#### Android studio
 
 需要安装Android studio以及adb，以使用安卓虚拟机
 
