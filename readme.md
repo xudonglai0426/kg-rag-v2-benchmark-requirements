@@ -7,7 +7,7 @@
 #### Output: 
 - 1.记录每一步执行的app截图以及路径
 - 2.记录每一步具体的操作描述，如：点击xxx，输入xxx，向上/下/左/右滑动
-- 3.记录每一步具体操作的控件的bounding box（[[X1,Y1],[X2,Y2]]，两个坐标点，一个左上角，一个右下角，只针对点击操作），其他动作则置 []
+- 3.记录每一步具体操作的控件的bounding box（[X1,Y1,X2,Y2]，两个坐标点，一个左上角，一个右下角，保证点击位置为bounding box的中心点，只针对点击操作），其他动作则置 []
 - 4.记录关键节点列表（按照主观感觉写）
 
 格式：
@@ -73,7 +73,7 @@ app_name/
 ## Variables
 - intention: 需要标注的意图
 - action_desp_list: 每一步操作的单步描述（点击xxx，输入xxx，向上/下/左/右滑动，勾选xxx复选框）
-- bounding_box_list: 记录每一步具体操作的控件的bounding box（[[X1,Y1],[X2, Y2]]，两个坐标点，一个左上角，一个右下角，只针对点击操作），其他动作则置 []
+- bounding_box_list: 记录每一步具体操作的控件的bounding box（[X1,Y1,X2,Y2]，两个坐标点，一个左上角，一个右下角，保证点击位置为bounding box的中心点，只针对点击操作），其他动作则置 []
 - checkpoint_list: 完成意图所需的关键页面
 - image_path_list: 每一张截图的相对路径
 
