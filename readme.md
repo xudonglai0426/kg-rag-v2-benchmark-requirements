@@ -1,5 +1,10 @@
 # KG-RAG-V2 Benchmark 
 
+## Links
+- apk: https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?usp=sharing
+- intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
+
+
 ## Inputs/Outputs
 #### Input: 
 一批意图以及一个常用的app
