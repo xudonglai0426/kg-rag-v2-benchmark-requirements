@@ -4,6 +4,7 @@
 - apk: https://drive.google.com/drive/folders/1It1hX83IGIaGP12tV_kMwHVh-s3gVUMu?usp=sharing
 - intention: https://drive.google.com/drive/folders/1ozPXt2nbKEPCQ8Zo4Hdb-WtsMawN0waI?usp=sharing
 
+每个垂类中，所有的app，用相同的意图
 
 ## Inputs/Outputs
 #### Input: 
