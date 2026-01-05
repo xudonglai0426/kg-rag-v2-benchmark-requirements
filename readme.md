@@ -70,6 +70,7 @@ app_name/
   hdc shell snapshot_display -f /data/local/tmp/step_084.jpeg  ## 手机上临时保存路径
   hdc file recv /data/local/tmp/step_084.jpeg /Users/xudonglai/Desktop/test1.jpeg  ## copy到本地
   ```
+- 鸿蒙和ios：额外记录一下手机的型号和app的版本（方便后续测评的版本控制）
 
 ## Platforms
 - Android (38个app）
