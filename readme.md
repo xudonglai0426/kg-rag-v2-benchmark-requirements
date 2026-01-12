@@ -15,6 +15,7 @@
 - 2.记录每一步具体的操作描述，如：点击xxx，输入xxx，向上/下/左/右滑动
 - 3.记录每一步具体操作的控件的bounding box（[X1,Y1,X2,Y2]，两个坐标点，一个左上角，一个右下角，保证点击位置为bounding box的中心点，只针对点击操作），其他动作则置 []
 - 4.记录关键节点列表（按照主观感觉写）
+- 5.注意!!! 确保len(action_desp_list) == len(bounding_box_list) == len(image_path_list) -1，方便后续解析
 
 格式：
 ```text
